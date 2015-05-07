@@ -59,7 +59,7 @@ public class Superficies {
            
             System.out.println("What is the radius of the circle?");
             md.setSidelength(sc.nextFloat());
-            md.setArea((float)(3.14159265 * md.getSidelength()));
+            md.setArea((float)(3.14159265 * (md.getSidelength()* md.getSidelength())));
             vis.circle(md);
 
         }
